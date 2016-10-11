@@ -29,3 +29,7 @@ Note: If your pencilblue application has other angular.js modules, you need to i
 
 </script>
 ```
+
+Example of chart that gest displayed:
+
+![Image of example chart](https://github.com/raga2560/chart-pencilblue/blob/master/pb_chart_plugin.jpg)
