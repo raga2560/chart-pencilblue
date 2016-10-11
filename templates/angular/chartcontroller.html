@@ -1,0 +1,35 @@
+
+
+
+
+<script type="text/javascript" src="^angular_src^"></script>
+		
+<script src="/public/chart-pencilblue/js/angular-ui-router.js"></script>
+  <script src="/public/chart-pencilblue/js/d3.v3.min.js" charset="utf-8"></script>
+  <script src="/public/chart-pencilblue/js/Chart.js"></script>
+  <script src="/public/chart-pencilblue/js/angular-chart.js"></script>
+
+
+
+    
+
+		
+		
+<script type="text/javascript">
+
+angular.module('pencilblueApp2', ['chart.js'])
+.controller('ChartController', function($scope) {
+  
+  $scope.labels = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+  $scope.series = ['Series A', 'Series B'];
+  $scope.data = [
+    [65, 59, 80, 65, 59, 80, 81, 56, 55, 40,81, 56, 55, 40],
+    [28, 48, 40, 19, 86, 27, 90, 65, 59, 80, 81, 56, 55, 40]
+  ];
+  
+   
+});
+ 
+ 
+</script>
+
